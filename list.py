@@ -5,3 +5,6 @@ mylist = ["apple", "banana", "cherry"]
 print(mylist)
 #list items are ordered, changeable, and allow duplicate values
 # first index [0]
+
+# list length
+print(len(mylist))
