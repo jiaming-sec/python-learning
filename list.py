@@ -32,4 +32,8 @@ if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
 
 # insert items
-#
+# insert a new list item without replacing any existing values, use insert() method
+thislist.insert(2, "watermelon")
+
+
+# to add an item to the end of the list, use append() method
