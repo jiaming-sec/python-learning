@@ -63,6 +63,36 @@ thislist.pop()
 thislist = ["apple", "banana", "cherry"]
 del thislist[0]
 
+# "del" can also delete the list completely
+del thislist
+
+# clear the list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
