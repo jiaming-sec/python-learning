@@ -11,3 +11,12 @@ print(len(mylist))
 
 #lists are defined as objects with data type 'list
 <class 'list'>
+
+# list() constructor
+thislist = list(("apple", "banana"))
+
+# 4 collection data types in Python
+# List - ordered, changeable. Allows duplicate
+# Tuple - ordered, unchangeable. Allow duplicate
+# Set - unordered, unchangeable, unindexed, no duplicate
+# 
