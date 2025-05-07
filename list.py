@@ -39,7 +39,7 @@ thislist.insert(2, "watermelon")
 # to add an item to the end of the list, use append() method
 thislist.append("orange")
 
-#Extend list
+# Extend list
 # to append elements from another list to the current list, use extend() method
 tropical = ["mango","pineapple", "papaya"]
 thislist.extend(tropical)
@@ -52,7 +52,16 @@ thislist.remove("banana")
 
 # if there are more than one item (duplicate) with the specified value, the remove() method removes the first occurrence 
 
+# remove specified index
+# pop() method removes the specified index
+thislist.pop(1)
 
+# if you do not specify the index, the pop() method removes the last item.
+thislist.pop()
+
+# the "del" keyword also removed the specified index
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
 
 
 
