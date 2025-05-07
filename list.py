@@ -8,3 +8,6 @@ print(mylist)
 
 # list length
 print(len(mylist))
+
+#lists are defined as objects with data type 'list
+<class 'list'>
