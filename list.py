@@ -50,7 +50,7 @@ thislist.extend(tropical)
 # the remove() method removes the specified item
 thislist.remove("banana")
 
-# fi
+# if there are more than one item (duplicate) with the specified value, the remove() method removes the first occurrence 
 
 
 
