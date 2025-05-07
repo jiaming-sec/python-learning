@@ -35,5 +35,40 @@ if "apple" in thislist:
 # insert a new list item without replacing any existing values, use insert() method
 thislist.insert(2, "watermelon")
 
-
+# append item
 # to add an item to the end of the list, use append() method
+thislist.append("orange")
+
+#Extend list
+# to append elements from another list to the current list, use extend() method
+tropical = ["mango","pineapple", "papaya"]
+thislist.extend(tropical)
+
+# extend() method does not have to append lists, can add any iterable object (tuples, sets, dictionaries)
+
+# remove specified item
+# the remove() method removes the specified item
+thislist.remove("banana")
+
+# fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
