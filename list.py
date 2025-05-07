@@ -21,3 +21,15 @@ thislist = list(("apple", "banana"))
 # Set - unordered, unchangeable, unindexed, no duplicate
 # Dictionary - ordered, changeable, no duplicate
 
+# The first item has index 0
+# Negative indexing -1 refers to the last item, -2 refers to the second last item.
+
+# Check if item exists
+# To determine if a specified item is present in a list use the in keyword
+
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+
+# insert items
+#
