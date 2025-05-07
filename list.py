@@ -70,6 +70,11 @@ del thislist
 # clear() method empties the list
 thislist.clear()
 
+# loop through a list
+# loop throught the list items by using "for" loop
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
 
 
 
