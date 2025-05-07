@@ -67,7 +67,8 @@ del thislist[0]
 del thislist
 
 # clear the list
-
+# clear() method empties the list
+thislist.clear()
 
 
 
