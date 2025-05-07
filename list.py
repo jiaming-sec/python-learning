@@ -19,4 +19,5 @@ thislist = list(("apple", "banana"))
 # List - ordered, changeable. Allows duplicate
 # Tuple - ordered, unchangeable. Allow duplicate
 # Set - unordered, unchangeable, unindexed, no duplicate
-# 
+# Dictionary - ordered, changeable, no duplicate
+
