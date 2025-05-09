@@ -14,4 +14,7 @@ if b > a:
 
 # Indentation
 # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.
-
+a = 33
+b = 200
+if b > a:
+print("b is greater than a") # you will get an error
