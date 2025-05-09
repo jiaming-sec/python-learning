@@ -42,6 +42,13 @@ else:
 # short hand if: if you have only one statement to execute, you can put it on the same line
 if a > b: print("a is greater than b")
 
+# short hand if...else: one for if, and one for else, put all on the same line
+a = 2
+b = 330
+print("A") if a > b else print("b")
+
+
+
 
 
 
