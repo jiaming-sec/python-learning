@@ -39,6 +39,9 @@ elif a ==b :
 else:
   print("a is greater than b")
 
+# short hand if: if you have only one statement to execute, you can put it on the same line
+if a > b: print("a is greater than b")
+
 
 
 
