@@ -62,7 +62,8 @@ if not a > b:
   print()
 
 # "pass" statement
-# 
+# "if" statment cannot be empty, if you have "if" statment with no content, put in the "pass" statement to avoid getting an error
+
 
 
 
