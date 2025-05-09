@@ -63,7 +63,10 @@ if not a > b:
 
 # "pass" statement
 # "if" statment cannot be empty, if you have "if" statment with no content, put in the "pass" statement to avoid getting an error
-
+a = 33
+b = 200
+if b > a:
+  pass
 
 
 
