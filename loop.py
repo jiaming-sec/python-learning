@@ -49,11 +49,20 @@ print("A") if a > b else print("b")
 
 print("A") if a > b else print("=") if a == b else print("B")
 
+# "and" is logical operator, use to combine conditional statements
+a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
 
+if a > b or a > c:
+  print()
+if not a > b:
+  print()
 
-
-
-
+# "pass" statement
+# 
 
 
 
