@@ -10,3 +10,11 @@ while i < 6:
   print("i")
   i += 1
 
+# the "break" statement
+# with "break" statement we can stop the loop even if the while condition is true:
+i = 1 
+while I < 6:
+  print(I)
+  f i ==3:
+    break
+  i +=1 
