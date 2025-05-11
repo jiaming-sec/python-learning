@@ -45,7 +45,8 @@ for x in fruits:
 
 # "for" loop does not require an indexing variable to set beforehand
 
-
+# loop throught a String
+# 
 
 
 
