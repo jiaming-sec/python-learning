@@ -38,8 +38,12 @@ else:
   print("i is no longer less than 6")
 
 
-# "for" loop is to iterating over a sequence (list, tuple, dictionary, set, string)
-#
+# "for" loop is used to iterate over a sequence (list, tuple, dictionary, set, string)
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+
 
 
 
