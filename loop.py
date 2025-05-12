@@ -50,6 +50,7 @@ for x in fruits:
 for x in "banana":
   print(x)
 
+# "break statement
 
 
 
