@@ -51,6 +51,7 @@ for x in "banana":
   print(x)
 
 # "break statement
+# break statement can stop the loop before it has looped throught all items
 
 
 
