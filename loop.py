@@ -53,7 +53,10 @@ for x in "banana":
 # "break statement
 # break statement can stop the loop before it has looped throught all items
 fruits = ["apple", "banana", "cherry"]
-
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
 
 
 
