@@ -70,7 +70,8 @@ for x in fruits:
 # To loop through a set of code a specified number of items
 
 # "range()" function return a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at specified number
-
+for x in range(6):
+  print(x)
 
 
 
