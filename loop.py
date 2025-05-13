@@ -59,7 +59,7 @@ for x in fruits:
     break
 
 # "continue" statement
-
+# continue statement can stop current iteration of the loop, and continue with the next
 
 
 
