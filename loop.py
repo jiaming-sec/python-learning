@@ -51,12 +51,14 @@ for x in "banana":
   print(x)
 
 # "break statement
-# break statement can stop the loop before it has looped throught all items
+# break statement can stop the loop before it has looped through all items
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
   if x == "banana":
     break
+
+# "continue" statement
 
 
 
