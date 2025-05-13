@@ -60,6 +60,13 @@ for x in fruits:
 
 # "continue" statement
 # continue statement can stop current iteration of the loop, and continue with the next
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+
 
 
 
