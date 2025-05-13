@@ -73,7 +73,8 @@ for x in fruits:
 for x in range(6):
   print(x)
 
-
+# range(6) is not the values of 0 to 6, but the values 0 to 5
+# range(2,6), which means vales from 2 to 6 (not including 6)
 
 
 
