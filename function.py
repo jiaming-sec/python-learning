@@ -4,3 +4,8 @@
 # function is defined using "def" keyword
 def my_function():
   print("Hello from a function")
+
+# calling a function
+# to call a function, use the function name followed by parenthesis:
+def my_function():
+  print("Hello from a function")
