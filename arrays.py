@@ -25,3 +25,4 @@ print('lowest value: ', minVal) # step 4
 
 # Selection Sort
 # Go through the array to find the lowest value
+# Move the lowest value to the front of the unsorted part of the array
