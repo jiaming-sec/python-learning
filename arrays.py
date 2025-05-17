@@ -16,3 +16,8 @@ For each element in the array
     minVal = current element
 
 arr = [7, 12, 9, 4, 11]
+minVal = arr[0] # step 1
+
+for i in arr: # step 2
+  if i < minVal: # step 3
+    minVal = i 
