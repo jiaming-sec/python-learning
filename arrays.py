@@ -8,3 +8,4 @@ print(my_array[0])
 # 1. create a variable 'minVal' and set it equal to the first value of the array
 # 2. go through every element in the array
 # 3. if the current element has a lower value than minVal, update minVal to this value
+# 4. after looking at all the elements in the array, the minVal variable now contains the lowest value
