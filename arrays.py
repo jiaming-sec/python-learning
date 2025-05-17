@@ -2,3 +2,4 @@
 # To work with arrays in Python, have to import a library, like the "Numpy" library
 
 my_array = [7,12,9,4,11]
+print(my_array[0])
