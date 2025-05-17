@@ -9,3 +9,8 @@ print(my_array[0])
 # 2. go through every element in the array
 # 3. if the current element has a lower value than minVal, update minVal to this value
 # 4. after looking at all the elements in the array, the minVal variable now contains the lowest value
+
+Variable 'minVal' = array[0]
+For each element in the array
+  if current element < minVal
+    minVal = current element
