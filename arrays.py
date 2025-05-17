@@ -14,3 +14,5 @@ Variable 'minVal' = array[0]
 For each element in the array
   if current element < minVal
     minVal = current element
+
+arr = [7, 12, 9, 4, 11]
