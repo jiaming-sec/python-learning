@@ -5,3 +5,4 @@ my_array = [7,12,9,4,11]
 print(my_array[0])
 
 # find the lowest value in an Array
+# 1. create a variable 'minVal' and set it equal to the first value of the array
