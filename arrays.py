@@ -6,3 +6,4 @@ print(my_array[0])
 
 # find the lowest value in an Array
 # 1. create a variable 'minVal' and set it equal to the first value of the array
+# 2. go through every element in the array
