@@ -25,4 +25,13 @@ print('lowest value: ', minVal) # step 4
 
 # Selection Sort (Solution: Swap Values!)
 # Instead of all the shifting, swap the lowest value (5) with the first value (64) like below.
-# Move the lowest value to the front of the unsorted part of the array
+arr = [64, 34, 25, 12, 22, 11, 90, 5]
+
+n = len(arr)
+for i in range(n):
+  min_index = i
+  for j in range(i+1, n):
+    if arr[j] < arr[min_index]:
+      min_index = j
+  arr[i], arr[min_index] = arr[min_index],arr[i]
+
