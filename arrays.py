@@ -21,3 +21,4 @@ minVal = arr[0] # step 1
 for i in arr: # step 2
   if i < minVal: # step 3
     minVal = i 
+print('lowest value: ', minVal) # step 4
