@@ -23,6 +23,6 @@ for i in arr: # step 2
     minVal = i 
 print('lowest value: ', minVal) # step 4
 
-# Selection Sort
+# Selection Sort (Solution: Swap Values!)
 # Go through the array to find the lowest value
 # Move the lowest value to the front of the unsorted part of the array
