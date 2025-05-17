@@ -24,5 +24,5 @@ for i in arr: # step 2
 print('lowest value: ', minVal) # step 4
 
 # Selection Sort (Solution: Swap Values!)
-# Go through the array to find the lowest value
+# Instead of all the shifting, swap the lowest value (5) with the first value (64) like below.
 # Move the lowest value to the front of the unsorted part of the array
