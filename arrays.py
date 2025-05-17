@@ -22,3 +22,5 @@ for i in arr: # step 2
   if i < minVal: # step 3
     minVal = i 
 print('lowest value: ', minVal) # step 4
+
+# Selection Sort
