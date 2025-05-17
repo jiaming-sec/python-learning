@@ -24,3 +24,4 @@ for i in arr: # step 2
 print('lowest value: ', minVal) # step 4
 
 # Selection Sort
+# Go through the array to find the lowest value
