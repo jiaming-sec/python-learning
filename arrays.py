@@ -49,3 +49,4 @@ for i in range(n):
   arr[i], arr[min_index] = arr[min_index],arr[i]
 
 # Insertion Sort
+# The Linear Search algorithm searches through an array and returns the index of the value it searches for.
