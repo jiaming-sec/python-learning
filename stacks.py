@@ -9,3 +9,5 @@ Size: Finds the number of elements in the stack.
 
 #Stacks can be implemented by using arrays or linked lists.
 # Stacks can be used to implement undo mechanisms, to revert to previous states, to create algorithms for depth-first search in graphs, or for backtracking.
+
+# Stack Implementation using Arrays
