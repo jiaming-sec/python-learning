@@ -6,3 +6,5 @@ Pop: Removes and returns the top element from the stack.
 Peek: Returns the top element on the stack.
 isEmpty: Checks if the stack is empty.
 Size: Finds the number of elements in the stack.
+
+#Stacks can be implemented by using arrays or linked lists.
