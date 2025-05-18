@@ -23,6 +23,8 @@ for i in arr: # step 2
     minVal = i 
 print('lowest value: ', minVal) # step 4
 
+# Bubble sort
+
 # Selection Sort (Solution: Swap Values!)
 # Instead of all the shifting, swap the lowest value (5) with the first value (64) like below.
 arr = [64, 34, 25, 12, 22, 11, 90, 5]
