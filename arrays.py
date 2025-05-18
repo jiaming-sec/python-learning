@@ -48,3 +48,4 @@ for i in range(n):
       min_index = j
   arr[i], arr[min_index] = arr[min_index],arr[i]
 
+# Insertion Sort
