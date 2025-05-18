@@ -24,6 +24,10 @@ for i in arr: # step 2
 print('lowest value: ', minVal) # step 4
 
 # Bubble sort
+#Go through the array, one value at a time.
+#For each value, compare the value with the next value.
+#If the value is higher than the next one, swap the values so that the highest value comes last.
+#Go through the array as many times as there are values in the array.
 
 # Selection Sort (Solution: Swap Values!)
 # Instead of all the shifting, swap the lowest value (5) with the first value (64) like below.
