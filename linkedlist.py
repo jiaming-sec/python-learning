@@ -18,3 +18,17 @@ while currentNode:
   print(currentnode.data, end="->")
   currentNode = currentNode.next
 print("null")
+
+def deleteNode(head, nodeToDelete):
+  if head == nodeToDelete:
+    return head.next
+
+  currentNode = head
+  while currentNode.next and currentNode.next != nodeToDelete:
+
+    curentNode = currentNode.next
+
+  if currentNode.next is None:
+    return head
+  currentNode.next = currentNode.next.next
+    reutrn head
