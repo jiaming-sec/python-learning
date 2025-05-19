@@ -5,3 +5,5 @@ class MyClass:
 # create object
 p1 = MyClass()
 print(p1.x)
+
+# "_init_()" function
