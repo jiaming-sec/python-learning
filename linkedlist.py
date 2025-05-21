@@ -13,13 +13,14 @@ node1.next = node2
 node2.next = node3
 node3.next = node4
 
+# Circular Singly Linked List Implementation
 currentNode = node1
 while currentNode:
   print(currentnode.data, end="->")
   currentNode = currentNode.next
 print("null")
 
-# Circular Singly Linked List Implementation
+
 def deleteNode(head, nodeToDelete):
   if head == nodeToDelete:
     return head.next
