@@ -19,6 +19,7 @@ while currentNode:
   currentNode = currentNode.next
 print("null")
 
+# Circular Singly Linked List Implementation
 def deleteNode(head, nodeToDelete):
   if head == nodeToDelete:
     return head.next
