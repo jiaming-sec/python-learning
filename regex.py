@@ -25,11 +25,16 @@ x = re.search("The.*Spain$", txt)
 # Metacharacters are characters with a special meaning:
 # []	A set of characters	"[a-m]"
 import re
-
 txt = "The rain in Spain"
-
 #Find all lower case characters alphabetically between "a" and "m":
-
 x = re.findall("[a-m]", txt)
 
-# 
+
+# \	Signals a special sequence (can also be used to escape special characters)	"\d"
+import re
+txt = "That will be 59 dollars"
+#Find all digit characters:
+x = re.findall("\d", txt)
+
+
+# .	Any character (except newline character)	"he..o"
