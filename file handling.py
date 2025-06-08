@@ -38,6 +38,8 @@ f = open("demofile.txt")
 print(f.readline())
 f.close()
 
+# By default the read() method returns the whole text, but you can also specify how many characters you want to return:
+
 
 
 
