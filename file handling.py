@@ -44,7 +44,8 @@ with open("demofile.txt") as f:
   print(f.read(5))
 
 # You can return one line by using readline() method:
-
+with open("demofile.txt") as f:
+  print(f.readline())
 
 
 
