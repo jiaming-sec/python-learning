@@ -34,7 +34,9 @@ with open("demofile.txt") as f:
 
 # It is a good practice to always close the file when you are done with it.
 # If you are not using the with statement, you must write a close statement in order to close the file:
-
+f = open("demofile.txt")
+print(f.readline())
+f.close()
 
 
 
