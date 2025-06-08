@@ -22,6 +22,14 @@ x = re.search("The.*Spain$", txt)
 # sub -- Replaces one or many matches with a string
 
 ----------------------------------------------------
-
 # Metacharacters are characters with a special meaning:
+# []	A set of characters	"[a-m]"
+import re
 
+txt = "The rain in Spain"
+
+#Find all lower case characters alphabetically between "a" and "m":
+
+x = re.findall("[a-m]", txt)
+
+# 
