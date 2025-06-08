@@ -94,6 +94,13 @@ with open("demofile.txt") as f:
 f = open("myfile.txt", "x")
 # Result: a new empty file is created.
 
+--------------------------------------------------------
+# Delete a File
+# To delete a file, you must import the OS module, and run its os.remove() function:
+
+
+
+
 
 
 
