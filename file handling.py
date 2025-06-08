@@ -110,6 +110,9 @@ if os.path.exists("demofile.txt"):
 else:
   print("The file does not exist")
 
+# Delete Folder
+# To delete an entire folder, use the os.rmdir() method:
+
 
 
 
