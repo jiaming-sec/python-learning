@@ -27,6 +27,7 @@ print(f.read())
 f = open("D:\\myfiles\welcome.txt")
 print(f.read())
 
+# You can also use the with statement when opening a file:
 
 
 
