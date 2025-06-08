@@ -92,6 +92,8 @@ with open("demofile.txt") as f:
 
 # create a new file called "myfile.txt":
 f = open("myfile.txt", "x")
+# Result: a new empty file is created.
+
 
 
 
