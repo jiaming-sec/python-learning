@@ -19,6 +19,10 @@ f = open("demofile.txt", "rt")
 
 # Because "r" for read, and "t" for text are the default values, you do not need to specify them.
 
+# The open() function returns a file object, which has a read() method for reading the content of the file:
+
+
+
 
 
 
