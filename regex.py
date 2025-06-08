@@ -4,6 +4,9 @@
 # RegEx Module
 # Python has a built-in package called re, which can be used to work with Regular Expressions.
 # Import the re module:
+import re
+
+# search the string to see if it starts with "The" and ends with "Spain":
 
 
 
