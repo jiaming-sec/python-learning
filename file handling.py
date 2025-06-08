@@ -90,6 +90,8 @@ with open("demofile.txt") as f:
 # "a" - Append - will create a file if the specified file does not exists
 # "w" - Write - will create a file if the specified file does not exists
 
+# create a new file called "myfile.txt":
+f = open("myfile.txt", "x")
 
 
 
