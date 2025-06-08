@@ -32,6 +32,8 @@ with open("demofile.txt") as f:
   print(f.read())
 
 # Then you do not have to worry about closing your files, the with statement takes care of that.
+# It is a good practice to always close the file when you are done with it.
+
 
 
 
