@@ -28,7 +28,8 @@ f = open("D:\\myfiles\welcome.txt")
 print(f.read())
 
 # You can also use the with statement when opening a file:
-
+with open("demofile.txt") as f:
+  print(f.read())
 
 
 
