@@ -30,8 +30,8 @@ print(f.read())
 # You can also use the with statement when opening a file:
 with open("demofile.txt") as f:
   print(f.read())
-
 # Then you do not have to worry about closing your files, the with statement takes care of that.
+
 # It is a good practice to always close the file when you are done with it.
 # If you are not using the with statement, you must write a close statement in order to close the file:
 
