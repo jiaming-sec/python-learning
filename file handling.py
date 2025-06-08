@@ -39,7 +39,9 @@ print(f.readline())
 f.close()
 
 # By default the read() method returns the whole text, but you can also specify how many characters you want to return:
-
+# Return the first 5 characters of the file
+with open("demofile.txt") as f:
+  print(f.read(5))
 
 
 
