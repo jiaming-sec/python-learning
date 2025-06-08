@@ -20,3 +20,8 @@ x = re.search("The.*Spain$", txt)
 # search -- Returns a Match object if there is a match anywhere in the string
 # split -- Returns a list where the string has been split at each match
 # sub -- Replaces one or many matches with a string
+
+----------------------------------------------------
+
+# Metacharacters are characters with a special meaning:
+
