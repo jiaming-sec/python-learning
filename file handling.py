@@ -63,7 +63,12 @@ with open("demofile.txt") as f:
 # "a" - Append - will append to the end of the file
 # "w" - Write - will overwrite any existing content
 
+with open("demofile.txt", "a") as f:
+  f.write("Now the file has more content!")
 
+# open and read the file after appending:
+with open("demofile.txt") as f:
+  print(f.read())
 
 
 
