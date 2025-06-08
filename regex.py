@@ -38,3 +38,10 @@ x = re.findall("\d", txt)
 
 
 # .	Any character (except newline character)	"he..o"
+import re
+txt = "hello planet"
+#Search for a sequence that starts with "he", followed by two (any) characters, and an "o":
+x = re.findall("he..o", txt)
+
+
+# 
