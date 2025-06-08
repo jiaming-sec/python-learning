@@ -12,4 +12,8 @@ import re
 txt = "The rain in Spain"
 x = re.search("The.*Spain$", txt)
 
-
+----------------------------------------------------
+#RegEx Functions
+# re modue offeres a set of functions that allows us to search a string for a match:
+# findall -- Returns a list containing all matches
+# search -- Returns a Match object if there is a match anywhere in the string
