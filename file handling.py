@@ -72,6 +72,9 @@ with open("demofile.txt") as f:
   print(f.read())
 
 # To overwrite the existing content to the file, use the w parameter:
+# Open the file "demofile.txt" and overwrite the content:
+with open("demofile.txt", "w") as f:
+  f.write("woops! I have deleted the content!")
 
 
 
