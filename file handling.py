@@ -56,6 +56,8 @@ with open("demofile.txt") as f:
 with open("demofile.txt") as f:
   for x in f:
     print(x)
+    
+--------------------------------------------------------
 
 # Write to an Existing File
 # To write to an existing file, you must add a parameter to the open() function:
@@ -79,7 +81,10 @@ with open("demofile.txt", "w") as f:
 # open and read the file after the overwriting:
 with open("demofile.txt") as f:
   print(f.read())
+# Note: the "w" method will overwrite the entire file.
 
+--------------------------------------------------------
+# Create a New File
 
 
 
