@@ -11,6 +11,9 @@
 # "t" - Text - Default value. Text mode
 # "b" - Binary - Binary mode (e.g. images)
 
+# To open a file for reading it is enough to specify the name of the file:
+f = open("demofile.txt")
+
 
 
 
