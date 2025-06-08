@@ -23,6 +23,9 @@ f = open("demofile.txt", "rt")
 f = open("demofile.txt")
 print(f.read())
 
+# If the file is located in a different location, you will have to specify the file path, like this:
+f = open("D:\\myfiles\welcome.txt")
+print(f.read())
 
 
 
