@@ -52,6 +52,10 @@ with open("demofile.txt") as f:
   print(f.readline())
   print(f.readline())
 
+# By looping through the lines of the file, you can read the whole file, line by line:
+with open("demofile.txt") as f:
+  for x in f:
+    print(x)
 
 
 
